@@ -1,0 +1,250 @@
+
+    @media (min-width: 1200px){
+.abc {
+    max-width: 1320px;
+}
+    }
+.main_head {
+padding: 15px 20px 15px 20px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .profile_sec{display: flex;justify-content: flex-end;}
+.bel {
+    text-align: center;
+    position: relative;
+    margin-right: 40px;
+}  
+.plus {
+    top: 33%;
+    position: absolute;
+    left: 56%;
+}
+    
+.plus i {background: #ffffff;border: 2px solid #000; border-radius: 50%;    font-size: 18px;}
+.pbel i { font-size: 3rem;}
+    
+ .bel div p {
+         margin-bottom: 0px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}   
+    
+ .prof img {
+    height: 50px;
+    width: 50px;
+}   
+    
+    .prof{display: flex;position: relative}   
+    
+    .prof p {
+    font-size: 1.4rem;
+}
+.prof p::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    position: absolute;
+    top: 26%;
+    right: -10%;
+} 
+    
+    
+.table-responsive {
+    background: #eeeeee;
+
+    padding: 30px 20px;
+}
+    .table thead th {
+    border-top: none;
+   
+    border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
+}
+    
+    .table td, .table th{
+         border-top: none;
+    vertical-align: bottom;
+    border-bottom: 2px dotted #000;
+        border-right: 2px solid #000;
+    }
+ 
+    
+    tr.last_row th, tr.last_row td {
+    border-bottom: none;
+}
+.table-responsive table.table {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+    .table-responsive td:nth-child(3) {
+        color:#ff9900;
+    }
+    
+      .table-responsive td:nth-child(5) {
+        font-size: 30px !important;
+    }
+    .error p {
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+    .last {
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+    .last a {
+        color:#a2a2a2 !important;
+    background: #eeeeee;
+    padding: 15px 20px;
+}
+    
+ .last a {
+         margin-left: 20px;
+    font-size: 20px;
+    color: #a2a2a2 !important;
+    background: #eeeeee;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+ .secition1 {
+         position: relative;
+    border: 3px solid #000;
+    border-top: none;
+} 
+    .set{padding: 15px;}  
+  
+    .shap i {
+        background: #fff;
+    border-radius: 60px;
+    padding: 5px;
+    border: 2px solid #000;
+    font-size: 30px;
+}
+    
+.body p {
+    padding: 8px 15px 8px 25px;
+    border: 2px solid #000;
+}
+    .shap {
+    position: absolute;
+    left: -8%;
+    top: 1%;
+}
+    
+    .iccon_div {
+            margin-left: 15px;
+    margin-top: 50px;
+    position: relative;
+}
+    
+
+    .return {
+    margin-top: 50px;
+}
+.return a {
+
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: revert;
+}    
+   .body {
+    background: #fff;
+} 
+    
+ .check {
+    position: absolute;
+    top: 12%;
+    border-top: 2px dotted #000;
+    width: 59%;
+    left: 6%;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 575px){
+.img_logo {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.profile_sec {
+
+    justify-content: space-around;
+}
+   .pbel i {
+    font-size: 2rem;
+}
+        .plus i {
+    background: #ffffff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 15px;
+}
+        .plus {
+    top: 20%;
+    position: absolute;
+    left: 52%;
+}
+        .bel div p {
+    margin-bottom: 0px;
+    font-size: .8em;
+    font-family: sans-serif;
+}
+    
+        .prof img {
+    height: 40px;
+    width: 40px;
+}
+        
+        .prof p {
+    font-size: 1rem;
+}
+        
+        .table-responsive {
+    background: #eeeeee;
+    padding: 30px 3px;
+}
+        .table td, .table th {
+    padding: .2rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 11px;
+}
+        
+  .table-responsive td:nth-child(5) {
+        font-size: 14px !important;
+    }
+     .last a {
+    margin-left: 7px;
+    font-size: 10px;
+    color: #a2a2a2 !important;
+    background: #eeeeee;
+    padding: 10px 5px;
+    font-weight: 500;
+    font-family: sans-serif;
+}   
+    .check {
+    display: none;
+        }
+        
+    }
